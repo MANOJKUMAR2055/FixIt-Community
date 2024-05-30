@@ -40,10 +40,9 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#"
-        ><img src="./assets/images/nav-logo.png" class="w-25" alt="FixIt Logo"
-      /></a>
+        style="font-weight: bold;" >Fixit</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -56,26 +55,27 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto p-2">
-          <a class="nav-link active mt-2" href="#"
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active" href="#"
             >Home <span class="sr-only">(current)</span></a
           >
-          <a class="nav-link mt-2" href="#">Features</a>
+          <a class="nav-link" href="#">Features</a>
           <a class="nav-link" href="#"
-            ><button class="btn bg-primary text-white">Sign in</button></a
+            >
+            sign in</a
           >
           <a class="nav-link" href="#"
-            ><button class="btn bg-primary text-white">Sign Up</button></a
+            >sign up</a
           >
         </div>
       </div>
     </nav>
     <div class="container mt-5">
       <div class="row">
-        <div class="col-12 shadow rounded-lg p-2">
+        <!-- <div class="col-12 shadow rounded-lg p-2">
           <div class="d-flex flex-row p-4">
             <div>
-              <img src="./assets/images/sticker.jpg" class="w-100" />
+              <img src="./modern-productivity-concept-with-flat-design.zip" alt="">
             </div>
             <div class="d-flex flex-column justify-content-center p-3">
               <div>
@@ -90,41 +90,90 @@
               </div>
             </div>
           </div>
-          <div class="modal" tabindex="-1">
+          <div class="m-2 text-right">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              More Details
+            </button>
+          </div>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
+                  <h5 class="modal-title" id="exampleModalLabel">More Details</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                  ...
                 </div>
                 <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                  <button type="button" class="btn btn-primary">
-                    Save changes
-                  </button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
               </div>
             </div>
           </div>
+        </div> -->
+        <!-- <div class="col-12 col-lg-2 p-2 col-md-4">
+          <h1>Programs</h1>
+          <p>Corporate</p>
+          <p>One to One </p>
+          <p>Consulting</p>
         </div>
+<div class="col-12 col-lg-2 p-2 col-md-4">
+  <h1>Service</h1>
+  <p>Training</p>
+  <p>Coaching</p>
+  <p>Consulting</p>
+</div>
+<div class="col-12 col-lg-2 p-2 col-md-4">
+  <h1>Contact</h1>
+  <p>Home</p>
+  <p>About</p>
+  <p>Contact</p>
+</div>
+
+<div class="col-12 col-lg-6 mt-2 col-md-12">
+  <h1>Email us</h1>
+    <form class="form-inline">
+      <input id="in" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+    </form>
+</div> -->
+<div class="id"></div>
+              <h4><span id="heading">Features</span>  we're provides</h4>
+              <div class="p-3 shadow mb-4 rounded-lg d-lg-none col-12">
+                  <div class="d-flex flex-row">
+                     <img class="w-50" src="./assets/images/online order.png" alt="">
+                     <img class="w-50" src="./assets/images/save money.png" alt="">
+                  </div>
+                  <div class="d-flex flex-row">
+                      <img class="w-50" src="./assets/images/happy sell.png" alt="">
+                     <img class="w-50" src="./assets/images/Free shipping-amico.png" alt="">
+                  </div>
+              </div>
+              <div class="col-12 d-none d-lg-block mb-4">
+                  <div class="d-flex flex-row shadow rounded-lg">
+                      <img class="w-25" src="./Free shipping-amico.png" alt="">
+                          <img class="w-25" src="./happy sell.png" alt="">
+                          <img class="w-25" src="./online order.png" alt="">
+                          <img class="w-25" src="./save money.png" alt="">
+                  </div>
+                 
+              </div>
+
+              <div class="col-12" id="features">
+                  <div>
+                      <div class="text-center mt-4 p-4">
+                          <h1>Featured Products</h1>
+                          <p>Our Services</p>
+                          <p>para <span>offers</span></p>
+                      </div>
+                  </div>
+              </div>
       </div>
     </div>
     <script src="assets/index.js" async defer></script>
-  </body>
+  </body>
 </html>

@@ -1,3 +1,19 @@
-body{
-    background-image: ;
+.fr
+{
+    outline: none;
+    width: 500px;
+}
+.bt1
+{
+    font-size:20px;
+    height:62px;
+    width: 80px;
+}
+#in
+{
+    width: 400px;
+}
+.id
+{
+    height:50vh;
 }
